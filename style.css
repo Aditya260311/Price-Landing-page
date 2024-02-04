@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    color: #842222;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #777;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+}
+
+.hero img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.pricing {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.pricing h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.pricing-option {
+    display: inline-block;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.pricing-option:hover {
+    transform: scale(1.05);
+    border-color: #ddd;
+}
+
+.pricing-option img {
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.pricing-option h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pricing-option p {
+    font-size: 14px;
+}
+
+.pricing-option span.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricing-option button {
+    background-color: #c75c38;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.pricing-option button:hover {
+    background-color: #d76d48;
+}
+
+.cart {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cart h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cart button {
+    background-color: #c75c38;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cart button:hover {
+    background-color: #d76d48;
+}
+
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .pricing-option {
+        width: 45%;
+    }
+}
